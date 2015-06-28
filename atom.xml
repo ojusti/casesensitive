@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   
-  <title><![CDATA[uNtitLEd]]></title>
-  
+  <title><![CDATA[untitled]]></title>
+  <subtitle><![CDATA[unstyled]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://casesensitive.space//"/>
-  <updated>2015-06-28T15:25:42.000Z</updated>
+  <updated>2015-06-28T16:06:36.000Z</updated>
   <id>http://casesensitive.space//</id>
   
   <author>
@@ -20,11 +20,11 @@
     <link href="http://casesensitive.space/2015/06/28/Bells-and-whistles/"/>
     <id>http://casesensitive.space/2015/06/28/Bells-and-whistles/</id>
     <published>2015-06-28T12:04:27.000Z</published>
-    <updated>2015-06-28T15:25:42.000Z</updated>
+    <updated>2015-06-28T16:06:36.000Z</updated>
     <content type="html"><![CDATA[<h2 id="Atom_feed">Atom feed</h2><p>As simple as:<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure></p>
 <figure class="highlight"><figcaption><span>_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">feed:&#10;  type: atom&#10;  path: atom.xml&#10;  limit: 20</span><br></pre></td></tr></table></figure>
 <h2 id="Comments">Comments</h2><p>All through my hexo initiation, <a href="http://jr0cket.co.uk/hexo/configure-your-hexo-website.html" target="_blank" rel="external">this guy’s tutorial</a> was very helpful.<br>Thanks to him, I discovered <a href="https://disqus.com/" target="_blank" rel="external">disqus</a>.<br><figure class="highlight"><figcaption><span>_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">disqus_shortname: your_disqus_name</span><br></pre></td></tr></table></figure></p>
-<h2 id="Banner">Banner</h2><p>Change banner-url in themes/landscape/source/css/_variables.styl</p>
+<h2 id="Banner">Banner</h2><p>Do a <code>hexo clean</code> and change banner-url in themes/landscape/source/css/_variables.styl.</p>
 <h2 id="Code_highlighting">Code highlighting</h2><p>Well, it doesn’t work</p>
 ]]></content>
     <summary type="html">
@@ -40,7 +40,7 @@
     <link href="http://casesensitive.space/2015/06/27/A-new-blog/"/>
     <id>http://casesensitive.space/2015/06/27/A-new-blog/</id>
     <published>2015-06-27T19:38:25.000Z</published>
-    <updated>2015-06-28T15:27:59.000Z</updated>
+    <updated>2015-06-28T16:05:23.000Z</updated>
     <content type="html"><![CDATA[<h2 id="Choose_a_platform">Choose a platform</h2><ul>
 <li>Google <code>programmer friendly blogging</code></li>
 <li>Read <a href="http://sixrevisions.com/tools/open-source-blogging-platforms-for-developers" target="_blank" rel="external">10 Open Source Blogging Platforms for Developers</a></li>
@@ -75,7 +75,7 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<h2 id="Deploy_to_github">Deploy to github</h2><ul>
+<h2 id="Deploy">Deploy</h2><ul>
 <li>Follow <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">hexo’s doc</a> and <a href="http://rabbi.xyz/Getting-Started-With-Hexo-Deploying-On-Github-Pages/" target="_blank" rel="external">this tutorial</a> to deploy to github.</li>
 <li>Deploy type should be <code>git</code> not <code>github</code><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate --deploy</span><br></pre></td></tr></table></figure>
 </li>
