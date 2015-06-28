@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://casesensitive.space//"/>
-  <updated>2015-06-28T12:09:00.000Z</updated>
+  <updated>2015-06-28T15:25:42.000Z</updated>
   <id>http://casesensitive.space//</id>
   
   <author>
@@ -20,21 +20,18 @@
     <link href="http://casesensitive.space/2015/06/28/Bells-and-whistles/"/>
     <id>http://casesensitive.space/2015/06/28/Bells-and-whistles/</id>
     <published>2015-06-28T12:04:27.000Z</published>
-    <updated>2015-06-28T12:09:00.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="Atom_feed">Atom feed</h2><ul>
-<li>As simple as:<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$  npm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">feed:&#10;  type: atom&#10;  path: atom.xml&#10;  limit: 20</span><br></pre></td></tr></table></figure>
-<h2 id="Comments">Comments</h2><ul>
-<li>All through my hexo initiation, <a href="http://jr0cket.co.uk/hexo/configure-your-hexo-website.html" target="_blank" rel="external">this guy’s tutorial</a> was very helpful.<br>Thanks to him, I discovered <a href="https://disqus.com/" target="_blank" rel="external">disqus</a>.<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># Comments&#10;disqus_shortname: your_disqus_name</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
+    <updated>2015-06-28T15:25:42.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="Atom_feed">Atom feed</h2><p>As simple as:<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight"><figcaption><span>_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">feed:&#10;  type: atom&#10;  path: atom.xml&#10;  limit: 20</span><br></pre></td></tr></table></figure>
+<h2 id="Comments">Comments</h2><p>All through my hexo initiation, <a href="http://jr0cket.co.uk/hexo/configure-your-hexo-website.html" target="_blank" rel="external">this guy’s tutorial</a> was very helpful.<br>Thanks to him, I discovered <a href="https://disqus.com/" target="_blank" rel="external">disqus</a>.<br><figure class="highlight"><figcaption><span>_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">disqus_shortname: your_disqus_name</span><br></pre></td></tr></table></figure></p>
+<h2 id="Banner">Banner</h2><p>Change banner-url in themes/landscape/source/css/_variables.styl</p>
+<h2 id="Code_highlighting">Code highlighting</h2><p>Well, it doesn’t work</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="Atom_feed">Atom feed</h2><ul>
-<li>As simple as:<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">]]>
+    <![CDATA[<h2 id="Atom_feed">Atom feed</h2><p>As simple as:<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ np]]>
     </summary>
+    
+      <category term="hexo" scheme="http://casesensitive.space/tags/hexo/"/>
     
   </entry>
   
@@ -59,28 +56,28 @@
 <li>Google <code>nodejs ubuntu install</code></li>
 <li>Read <a href="https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server" target="_blank" rel="external">How To Install Node.js on an Ubuntu 14.04 server</a></li>
 <li><p>Follow <code>How To Install Using a PPA</code> as I would like to have a newer version</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ curl <span class="operator">-s</span>L https://deb.nodesource.com/setup | sudo bash -</span><br><span class="line">$ sudo apt-get install nodejs</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl <span class="operator">-s</span>L https://deb.nodesource.com/setup | sudo bash -</span><br><span class="line">$ sudo apt-get install nodejs</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>Install hexo using npm</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <h2 id="First_post">First post</h2><ul>
 <li><p>Init site folder</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init site</span><br><span class="line">INFO  Copying data to ~/work/site</span><br><span class="line">INFO  You are almost <span class="keyword">done</span>! Don<span class="string">'t forget to run '</span>npm install<span class="string">' before you start blogging with Hexo!</span><br><span class="line">$ sudo npm install</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init site</span><br><span class="line">INFO  Copying data to ~/work/site</span><br><span class="line">INFO  You are almost <span class="keyword">done</span>! Don<span class="string">'t forget to run '</span>npm install<span class="string">' before you start blogging with Hexo!</span><br><span class="line">$ sudo npm install</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>Change _config.yml, modify title, author and url</p>
 </li>
 <li><p>Start writing this “tutorial”</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"A new blog"</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"A new blog"</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>Preview</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <h2 id="Deploy_to_github">Deploy to github</h2><ul>
 <li>Follow <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">hexo’s doc</a> and <a href="http://rabbi.xyz/Getting-Started-With-Hexo-Deploying-On-Github-Pages/" target="_blank" rel="external">this tutorial</a> to deploy to github.</li>
-<li>Deploy type should be <code>git</code> not <code>github</code><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate --deploy</span><br></pre></td></tr></table></figure>
+<li>Deploy type should be <code>git</code> not <code>github</code><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate --deploy</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 ]]></content>

@@ -112,28 +112,28 @@ All the others results on the 1st page were">
 <li>Google <code>nodejs ubuntu install</code></li>
 <li>Read <a href="https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server" target="_blank" rel="external">How To Install Node.js on an Ubuntu 14.04 server</a></li>
 <li><p>Follow <code>How To Install Using a PPA</code> as I would like to have a newer version</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ curl <span class="operator">-s</span>L https://deb.nodesource.com/setup | sudo bash -</span><br><span class="line">$ sudo apt-get install nodejs</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl <span class="operator">-s</span>L https://deb.nodesource.com/setup | sudo bash -</span><br><span class="line">$ sudo apt-get install nodejs</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>Install hexo using npm</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <h2 id="First_post">First post</h2><ul>
 <li><p>Init site folder</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init site</span><br><span class="line">INFO  Copying data to ~/work/site</span><br><span class="line">INFO  You are almost <span class="keyword">done</span>! Don<span class="string">'t forget to run '</span>npm install<span class="string">' before you start blogging with Hexo!</span><br><span class="line">$ sudo npm install</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init site</span><br><span class="line">INFO  Copying data to ~/work/site</span><br><span class="line">INFO  You are almost <span class="keyword">done</span>! Don<span class="string">'t forget to run '</span>npm install<span class="string">' before you start blogging with Hexo!</span><br><span class="line">$ sudo npm install</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>Change _config.yml, modify title, author and url</p>
 </li>
 <li><p>Start writing this “tutorial”</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"A new blog"</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"A new blog"</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>Preview</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <h2 id="Deploy_to_github">Deploy to github</h2><ul>
 <li>Follow <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">hexo’s doc</a> and <a href="http://rabbi.xyz/Getting-Started-With-Hexo-Deploying-On-Github-Pages/" target="_blank" rel="external">this tutorial</a> to deploy to github.</li>
-<li>Deploy type should be <code>git</code> not <code>github</code><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate --deploy</span><br></pre></td></tr></table></figure>
+<li>Deploy type should be <code>git</code> not <code>github</code><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate --deploy</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 
@@ -179,8 +179,22 @@ All the others results on the 1st page were">
     
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/hexo/" style="font-size: 10px;">hexo</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
